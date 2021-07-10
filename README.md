@@ -12,8 +12,7 @@ Results:
 The first dataset was found to have discrepancy between test and training sets. For this reason, another dataset was used. 
 The accuracies are shown below:
 
-| Accuracy |
-|------------|----|-----|----|
+| Accuracy | | | |
 | Classifier | Train | Val | Test |
 |------------|-------|-----|------|
 | Decision Tree | 90 | 71 | 71 |
