@@ -12,7 +12,8 @@ Results:
 The first dataset was found to have discrepancy between test and training sets. For this reason, another dataset was used. 
 The accuracies are shown below:
 
-| Accuracy | | | |
+Accuracy on Dataset 1 (%):
+
 | Classifier | Train | Val | Test |
 |------------|-------|-----|------|
 | Decision Tree | 90 | 71 | 71 |
@@ -20,3 +21,15 @@ The accuracies are shown below:
 | VGG19 + Softmax | 100 | 82 | 5 |
 | PCA + SVM | 92 | 84 | 4|
 
+
+Accuracy on Dataset 2 (%):
+
+| Classifier | Train | Test |
+|------------|-------|------|
+| Decision Tree (MLN=20) | 100 | 71 |
+| Decision Tree (MLN=6) | 93 | 72 |
+| VGG16 + Softmax | 100 | 87 |
+| VGG19 + Softmax | 100 | 88 |
+| PCA + SVM | 100 | 100 |
+| PCA + 2 FC NN ('adam') | 97 | 96 |
+| PCA + 2 FC NN ('rmsprop') | 71 | 72 |
